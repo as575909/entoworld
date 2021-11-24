@@ -1,0 +1,308 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@as575909 
+as575909
+/
+entertainment-website
+Public
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+entertainment-website/index.html
+@as575909
+as575909 Update index.html
+Latest commit ecf00cf on Apr 12, 2020
+ History
+ 1 contributor
+277 lines (257 sloc)  7.09 KB
+   
+<html>
+<head>
+<title> ENTOWORLD </title>
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<style>
+	*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+    margin-right: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 30px;
+	border: 5px solid #ff0000;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #ff0000;
+	color: #fff;
+}
+.logo img{
+	float: center;
+	width: 150px;
+	height: auto;
+}
+.main{
+	max-width: 1300px;
+	margin: 25px 30px 25px 10px;
+}
+.title{
+	position: absolute;
+     margin-top: 70px;
+    margin-left: 15px;
+    line-height: 70px;
+}
+.title h1{
+	color: #ff0000;
+	font-size: 70px;
+}
+.title h4{
+	color: #fff;
+	font-size: 30px;
+	
+}
+
+.text{
+	color: white;
+	font-family: sans-serif;
+	top:110%;
+	font-size: 30px;
+	
+}
+
+}
+.footer{
+	width: 100%;
+	background: #00121b;
+	display: block;
+}
+.inner-footer{
+	width: 95%;
+	margin: auto;
+	padding: 100px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+}
+.footer-items{
+	width: 25%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	line-height: 40px;
+}
+h2{
+	margin: 10px 0;
+	color: grey;
+	font-size: 25px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.border{
+	height: 2px;
+	width: 40px;
+	background: #ff9800;
+}
+.social-media{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+.social-media a{
+	text-decoration: none;
+}
+.social-media i{
+	height: 15px;
+	width: 15px;
+	margin: 20px 5px;
+	padding: 20px;
+	color: #fff;
+	border-radius: 50%;
+	border: 1px solid grey;
+	transition: 0.3s;
+}
+.social-media i:hover{
+	background: grey;
+}
+.help{
+	font-size: 20px;
+	font-family: sans-serif;
+	line-height: 40px;
+}
+.footer-bottom{
+	padding: 10px;
+	background: #3d545f;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+}
+@media screen and (max-width: 1085px){
+	.footer-items{
+		width: 50%
+	}
+}
+@media screen and (max-width: 600px){
+	.footer-items{
+		width: 100%
+	}
+}
+
+	
+	
+	img{
+		width: 200px;
+		height: 200px;
+        	margin-top: 250px;
+        	border: 5px solid #ff0000;
+	}
+	table{
+		background-color: transparent;
+		width: 95%;
+		margin-left: 30px;
+
+	}
+	td{
+		padding: 15px;
+
+	}
+	p{
+		color: red;
+	}
+</style>
+</head>
+<body bgcolor="black">
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="3.png">
+			</div>
+			<ul>
+				<li><a href="signin.html"><b>Sign In</b></a></li>
+			</ul>
+		</div>
+		<div class="title">
+			<h1> Welcome to <strong><u>ENTOWORLD!!</u></strong></h1>
+			<h4> Here we provide you with all kinds of entertainment available on Internet to enjoy.
+			            <br>You Name It, We Have It  !!</h4>
+		</div>
+		
+    <table align="center">
+    	    <tr>
+    	    	<td>
+    	    		 <a href="https://play.google.com/store/apps/category/GAME?hl=en" target="_blank"><img src="4.jpg"></a>
+                   <br>
+                    <div class="text"><u>Games</u></div>
+                   
+    	    	</td>
+    	    	<td>
+    	    		<a href="https://www.amazon.in/Free-Kindle-eBooks/b?ie=UTF8&node=4341284031" target="_blank"><img src="5.jpg"></a>
+                    
+                   	<div class="text"><u>Books</u></div>
+                  
+    	    	</td>
+    	    	<td> <div class="container">
+    	    		<a href="https://www.netflix.com/in/ "target="_blank"><img src="6.jpg"></a>
+                   <div class="overlay overlayFade">
+                   	<div class="text"><u>Web Series</u></div>
+                   </div>
+    	    		</div>
+    	    	</td>
+    	    	<td><div class="container">
+    	    		<a href="https://news.google.com/topstories?hl=en-IN&gl=IN&ceid=IN:en" target="_blank"><img src="7.jpg"></a>
+                    <div class="overlay overlayFade">
+                   	<div class="text"><u>News</u></div>
+                   </div>
+    	    		</div>
+    	    	</td>
+    	    </tr>
+
+    	<tr>
+    		<td><div class="container">
+    			<a href="https://www.youtube.com/ "target="-blank"><img src="8.jpg"></a>
+                  <div class="overlay overlayFade">
+                   	<div class="text"><u>Movies</u></div>
+                   </div>
+    	    		</div>
+    		</td>
+    		<td><div class="container">
+    			<a href="https://jiotv.com/ "target="_blank"><img src="9.jpg"></a>
+                   <div class="overlay overlayFade">
+                   	<div class="text"><u>TV Shows</u></div>
+                   </div>
+    	    		</div>
+    		</td>
+    		<td><div class="container">
+    			<a href="https://open.spotify.com/show/6ZcvVBPQ2ToLXEWVbaw59P" target="_blank"><img src="10.jpg"></a>
+                 <div class="overlay overlayFade">
+                   	<div class="text"><u>Podcasts</u></div>
+                   </div>
+    	    		</div>
+    		</td>
+    		<td><div class="container">
+    			<a href="https://www.short-story.me/" target="_blank"><img src="11.jpg"></a>
+                  <div class="overlay overlayFade">
+                   	<div class="text"><u>Stories</u></div>
+                   </div>
+    	    		</div>
+    		</td>
+    	</tr> 
+    	
+    
+    </table>
+              <div class="footer">
+              <div class="inner-footer">
+                <div class="footer-items"><h2><a href="faqself.html">FAQ</a></h2></div>
+                <div class="footer-items"><h2><a href="privacy.html">Privacy</a></h2></div>
+                <div class="footer-items"><h2><a href="#">Help Centre</a></h2></div>
+               	<div class="footer-items"><h2><a href="account.html">Account</a></h2></div>
+               	<div class="footer-items"><h2><a href="termandcondition.html">Terms of use</a></h2></div>
+               	<div class="footer-items"><h2><a href="contact.html">Contact Us</a></h2></div> 
+                   <div class="social-media">
+                   	<a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                   	<a href="https://twitter.com/explore"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                   	<a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                   	<a href="https://www.google.co.in/"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </div>         
+                     </div>
+                     <div class="help">
+                     	<p align="center" ><strong>Help Flatten the Curve!</strong></p>
+    <p align="center"> We are encouraging people around the worldto help flatten the Coronavirus curve by self-isolating with FREE content.
+
+                     </div>
+                     <div class="footer-bottom">
+                     	Copyright &copy; Entoworld 2021. All rights reserved.
+                     	
+                     </div>
+              </div>
+</header>
+</body>
